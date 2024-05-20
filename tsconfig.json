@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "target": "esnext",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,7 +21,8 @@
     "paths": {
       "@/*": ["./src/*"],
       "~ui/*": ["./src/lib/shared/design-system/ui/*"],
-      "~ui/utils": ["./src/lib/shared/design-system/utils"]
+      "~ui/utils": ["./src/lib/shared/design-system/utils"],
+      "~shared/*": ["./src/lib/shared/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
