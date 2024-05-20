@@ -24,6 +24,7 @@
       "~ui/utils": ["./src/lib/shared/design-system/utils"],
       "~features/*": ["./src/lib/features/*"],
       "~entities/*": ["./src/lib/entities/*"],
+      "~widgets/*": ["./src/lib/widgets/*"],
       "~shared/*": ["./src/lib/shared/*"]
     }
   },
