@@ -22,6 +22,8 @@
       "@/*": ["./src/*"],
       "~ui/*": ["./src/lib/shared/design-system/ui/*"],
       "~ui/utils": ["./src/lib/shared/design-system/utils"],
+      "~features/*": ["./src/lib/features/*"],
+      "~entities/*": ["./src/lib/entities/*"],
       "~shared/*": ["./src/lib/shared/*"]
     }
   },

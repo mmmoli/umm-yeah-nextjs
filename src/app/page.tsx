@@ -1,9 +1,9 @@
-import { Button } from "~ui/button";
+import { UserButton } from "~features/auth/user-button";
 
 export default function Home() {
   return (
     <main>
-      <Button>Click me</Button>
+      <UserButton />
     </main>
   );
 }
